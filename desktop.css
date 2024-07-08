@@ -1,0 +1,150 @@
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.logo{
+    text-align: left;
+    padding: 10px 30px;
+
+}
+.title{
+    text-align: right;
+}
+.title h1{
+    padding:17px 10px;
+}
+.navbar-menu{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    
+    
+
+
+}
+.navbar-menu a{
+    padding:5px 30px;
+    background-color: transparent;
+    margin: 25px 0px;
+    transition:0.5s;
+
+}
+.navbar-menu a:hover{
+    background-color: black;
+}
+.profile .top-weather{
+    position: absolute;
+    right: 100px;
+    width: 120px;
+    transition: width 2s;
+}
+.profile .top-weather:hover{
+    width:140px;
+    
+}
+.profile .bottom-weather{
+    position: absolute;
+    left: 100px;
+    width:120px;
+    transition: width 2s;
+}
+.profile .bottom-weather:hover{
+    width:140px;
+}
+.profile p{
+    text-align: center;
+    padding-top:30px;
+    margin:0 auto;
+    width:70%;
+    color:gray;
+    
+
+
+}
+
+/* about section starts here */
+
+
+
+.adress p{
+    text-align: left;
+}
+.image{
+    margin-top: 95px;
+}
+
+
+
+/* about section starts here */
+
+
+
+/* skill section starts here */
+
+.link{
+    text-align: center;
+    text-decoration: none;
+    color:white;
+    display: block;
+    background-color: gray;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+/* skill section starts here */
+
+
+/* achievments section starts here */
+
+.contact-links{
+    
+}
+.social{
+   
+    display: grid;
+    grid-template-columns: auto auto;
+    width:165px;
+    margin: 40px auto;
+
+    
+    
+}
+.social .links{
+
+    margin:8px 10px;
+   
+    
+}
+
+/* achievments section ends here */
+
+/* footer starts from here */
+
+.footer{
+    height: 60px;
+}
+
+.footer-menu a{
+
+    display: inline;
+    margin: 0px 5px;
+
+}
+.footer-menu{
+    padding:12px;
+}
+.footer-desc{
+    
+    padding:15px;
+}
+/* footer ends here */
